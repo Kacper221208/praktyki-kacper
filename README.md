@@ -24,7 +24,7 @@ This template uses the following dependencies:
 1. To start using this template, clone the repository with this command:
 
 ```bash
-git clone https://github.com/Barata-Ribeiro/vite-vanilla-js-template.git
+git clone https://github.com/Kacper221208/praktyki-kacper.git
 ```
 
 2. Then proceed to the folder and install dependencies:
