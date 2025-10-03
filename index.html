@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/@/@fontawesome/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="/src/styles/style.css">
     <title>Vite.js Vanilla Template</title>
   </head>
@@ -16,14 +20,28 @@
       <div class="menu">
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#onas">O nas</a></li>
+
+          <li><a href="#onas"><i class="fa-solid fa-magnifying-glass"></i>&nbsp; O nas</a></li>
           <li><a href="#produkty">Produkty</a></li>
           <li><a href="#kontakt">Kontakt</a></li>
         </ul>
       </div>
     </div>
-
-    <div class="main">
+      <div class="hero">
+        <div class="texty">
+          <h1>Minecraft</h1>
+          <span>Gra dla każdego</span>
+          <div>
+           
+            <button class="add-to-card">Kup Teraz &nbsp;<i class="animate fa-solid fa-arrow-right"></i></button> 
+          </div>
+          
+        </div>
+        <div class="image">
+          <img src="/public/mc.jpeg">
+        </div>
+      </div>
+    <div class="main" id="onas"> 
       <div class="hello">
         <h1>Moj sklep intenetowy</h1>
         <p>dzien dobry zapraszamy na zakupy</p>

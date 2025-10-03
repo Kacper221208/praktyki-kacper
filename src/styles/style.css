@@ -1,18 +1,28 @@
+html{
+  scroll-behavior: smooth;
+}
 
 body {
   margin: 0;
   padding: 0;
   min-width: 20rem;
   min-height: 100vh;
-}
+  font-family: "Poppins", sans-serif;
 
+}
+h1, h2, h3, h4, h5, h6, .add-to-card{
+font-family: "Orbitron", sans-serif;
+font-weight: 500;
+
+
+}
 
 .header {
   width: 100%;
   display: flex;
   justify-content: space-around;
   background: #555252;
-  padding: 25px 0;
+  padding: 10px 0;
 }
 
 .header .logo {
@@ -53,7 +63,81 @@ body {
   background: rgba(255,255,255,0.3)
 }
 
+.hero{
 
+background-color: #030b12;
+background-image: url(/public/hero.png);
+height: calc(100vh-40px);
+width:100%;
+background-size:cover ;
+display:flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px;
+}
+
+.hero .texty{
+display:flex;
+flex:1;
+flex-direction: column;
+gap:20px;
+color: #ffffff;
+padding-left: 50px;
+}
+.hero .texty h1{
+font-size: 52px;
+font-weight: 700;
+} 
+
+
+.hero .texty span{
+font-style: italic;
+font-size: 26px;
+
+
+}
+
+.add-to-card{
+color: #ffffff;
+padding: 12px 24px;
+font-weight: 600;
+background: linear-gradient(90deg, #00ff40, #00ffea);
+display: inline-block;
+border-radius: 10px;
+transition: all 0.5s ease-in-out;
+font-size: 26px;
+}
+.add-to-card:hover{
+  transform: translateY(-5px) scale(1.1) translateX(5px);
+}
+.add-to-card .animate{
+  transition: all 0.5s ease-in-out;
+}
+.add-to-card:hover .animate{
+
+  transform: rotate(-45deg);
+}
+
+
+
+
+.hero .image{
+display:flex;
+flex:1;
+align-items: center;
+justify-content: center;
+position: relative;
+height: 100%;
+}
+.hero .image img{
+   height: 100%;
+   transition: all 0.5s ease-in-out;
+  
+}
+ .hero .image img:hover{
+
+  transform: scale(1.05) matrix3d(700px);
+}
 .container { 
 
 }
@@ -61,6 +145,7 @@ body {
 .main {
   margin: 15px auto;
   width: 1320px;
+  min-height: 100vh;
 }
 
 .hello {
