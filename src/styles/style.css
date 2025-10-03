@@ -21,8 +21,91 @@ font-weight: 500;
   width: 100%;
   display: flex;
   justify-content: space-around;
-  background: #555252;
+  background: #9d3737;
   padding: 10px 0;
+}
+.sponsorzy{
+font-family: "Orbitron", sans-serif;
+font-weight: 500;
+color: #ffffff;
+font-size: 20px;
+padding: 5px;
+}
+.steam{
+border-radius: 100px;
+
+transition: all 0.5s ease-in-out;
+ width: 60px;
+ margin-right:10px ;
+
+
+}
+.steam:hover{
+
+  transform: scale(1.1);
+}
+.g2a{
+border-radius: 200px;
+width: 65px;
+    height: auto;
+margin-right: 50px;
+transition: all 0.5s ease-in-out;
+
+}
+
+.g2a:hover{
+
+  transform: scale(1.1);
+}
+
+.home{
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  padding: 10px 10px ;
+ 
+transition: all 0.5s ease-in-out ;
+}
+.home:hover{
+
+  transform: scale(1.1);
+}
+
+.onas{
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  padding: 10px 10px ;
+  
+  transition: all 0.5s ease-in-out
+}
+ .onas:hover{
+    
+  transform: scale(1.1);
+}
+.produkty{
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  padding: 10px 10px ;
+ 
+transition: all 0.5s ease-in-out ;
+}
+.produkty:hover{
+
+  transform: scale(1.1);
+}
+.kontakt{
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  padding: 10px 10px ;
+ 
+transition: all 0.5s ease-in-out ;
+}
+.kontakt:hover{
+
+  transform: scale(1.1);
 }
 
 .header .logo {
@@ -40,27 +123,32 @@ font-weight: 500;
   justify-content: end;
   width: 80%;
   padding-right: 45px;
+
 }
 .header .menu ul {
   display: flex;
   gap: 25px;
 }
+
+
+
+
+
+
+
 .header .menu ul > li {
+   
+
 
 }
 .header .menu ul > li a { 
-  font-size: 20px;
-  font-weight: 600;
-  text-transform: uppercase;
-  color: #ffffff;
-  background: transparent;
-  padding: 15px 32px;
-  border-radius: 32px;
-  border: 1px solid #ffffff;
-  transition: all 400ms ease-in-out;
+ 
+  
+
  }
 .header .menu ul > li a:hover {
   background: rgba(255,255,255,0.3)
+  
 }
 
 .hero{
@@ -136,7 +224,7 @@ height: 100%;
 }
  .hero .image img:hover{
 
-  transform: scale(1.05) matrix3d(700px);
+  transform: scale(1.05) n
 }
 .container { 
 
