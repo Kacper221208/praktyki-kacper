@@ -1,4 +1,4 @@
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -8,13 +8,11 @@ body {
   min-width: 20rem;
   min-height: 100vh;
   font-family: "Poppins", sans-serif;
-
 }
-h1, h2, h3, h4, h5, h6, .add-to-card{
-font-family: "Orbitron", sans-serif;
-font-weight: 500;
 
-
+h1, h2, h3, h4, h5, h6, .add-to-card {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 500;
 }
 
 .header {
@@ -24,87 +22,85 @@ font-weight: 500;
   background: #9d3737;
   padding: 10px 0;
 }
-.sponsorzy{
-font-family: "Orbitron", sans-serif;
-font-weight: 500;
-color: #ffffff;
-font-size: 20px;
-padding: 5px;
-}
-.steam{
-border-radius: 100px;
 
-transition: all 0.5s ease-in-out;
- width: 60px;
- margin-right:10px ;
-
-
-}
-.steam:hover{
-
-  transform: scale(1.1);
-}
-.g2a{
-border-radius: 200px;
-width: 65px;
-    height: auto;
-margin-right: 50px;
-transition: all 0.5s ease-in-out;
-
+.sponsorzy {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 5px;
 }
 
-.g2a:hover{
+.steam {
+  border-radius: 100px;
+  transition: all 0.5s ease-in-out;
+  width: 60px;
+  margin-right: 10px;
+}
 
+.steam:hover {
   transform: scale(1.1);
 }
 
-.home{
+.g2a {
+  border-radius: 200px;
+  width: 65px;
+  height: auto;
+  margin-right: 50px;
+  transition: all 0.5s ease-in-out;
+}
+
+.g2a:hover {
+  transform: scale(1.1);
+}
+
+.home {
   font-size: 20px;
   font-weight: 700;
   color: white;
-  padding: 10px 10px ;
- 
-transition: all 0.5s ease-in-out ;
+  padding: 10px 10px;
+  transition: all 0.5s ease-in-out;
 }
-.home:hover{
 
+.home:hover {
   transform: scale(1.1);
 }
 
-.onas{
+.onas {
   font-size: 20px;
   font-weight: 700;
   color: white;
-  padding: 10px 10px ;
-  
+  padding: 10px 10px;
   transition: all 0.5s ease-in-out
 }
- .onas:hover{
-    
+
+.onas:hover {
   transform: scale(1.1);
 }
-.produkty{
+
+.produkty {
   font-size: 20px;
   font-weight: 700;
   color: white;
-  padding: 10px 10px ;
- 
-transition: all 0.5s ease-in-out ;
+  padding: 10px 10px;
+  transition: all 0.5s ease-in-out;
 }
-.produkty:hover{
+
+.produkty:hover {
 
   transform: scale(1.1);
 }
-.kontakt{
+
+.kontakt {
   font-size: 20px;
   font-weight: 700;
   color: white;
-  padding: 10px 10px ;
- 
-transition: all 0.5s ease-in-out ;
-}
-.kontakt:hover{
+  padding: 10px 10px;
 
+  transition: all 0.5s ease-in-out;
+}
+
+.kontakt:hover {
   transform: scale(1.1);
 }
 
@@ -113,120 +109,109 @@ transition: all 0.5s ease-in-out ;
   display: flex;
   justify-content: center;
 }
+
 .header .logo img {
   width: 60px;
   margin: 0 auto;
 }
+
 .header .menu {
   display: flex;
   align-items: center;
   justify-content: end;
   width: 80%;
   padding-right: 45px;
-
 }
+
 .header .menu ul {
   display: flex;
   gap: 25px;
 }
 
+.header .menu ul > li {}
+.header .menu ul > li a {}
 
-
-
-
-
-
-.header .menu ul > li {
-   
-
-
-}
-.header .menu ul > li a { 
- 
-  
-
- }
 .header .menu ul > li a:hover {
-  background: rgba(255,255,255,0.3)
-  
+  background: rgba(255, 255, 255, 0.3)
 }
 
-.hero{
-
-background-color: #030b12;
-background-image: url(/public/hero.png);
-height: calc(100vh-40px);
-width:100%;
-background-size:cover ;
-display:flex;
-align-items: center;
-justify-content: space-between;
-padding: 20px;
+.hero {
+  background-color: #030b12;
+  background-image: url("/hero.png");
+  height: calc(100vh - 40px);
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
 }
 
-.hero .texty{
-display:flex;
-flex:1;
-flex-direction: column;
-gap:20px;
-color: #ffffff;
-padding-left: 50px;
-}
-.hero .texty h1{
-font-size: 52px;
-font-weight: 700;
-} 
-
-
-.hero .texty span{
-font-style: italic;
-font-size: 26px;
-
-
+.hero .texty {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 20px;
+  color: #ffffff;
+  padding-left: 50px;
 }
 
-.add-to-card{
-color: #ffffff;
-padding: 12px 24px;
-font-weight: 600;
-background: linear-gradient(90deg, #00ff40, #00ffea);
-display: inline-block;
-border-radius: 10px;
-transition: all 0.5s ease-in-out;
-font-size: 26px;
+.hero .texty h1 {
+  font-size: 52px;
+  font-weight: 700;
 }
-.add-to-card:hover{
+
+
+.hero .texty span {
+  font-style: italic;
+  font-size: 26px;
+}
+
+.add-to-card {
+  color: #ffffff;
+  padding: 12px 24px;
+  font-weight: 600;
+  background: linear-gradient(90deg, #00ff40, #00ffea);
+  display: inline-block;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+  font-size: 26px;
+}
+
+.add-to-card:hover {
   transform: translateY(-5px) scale(1.1) translateX(5px);
 }
-.add-to-card .animate{
+
+.add-to-card .animate {
   transition: all 0.5s ease-in-out;
 }
-.add-to-card:hover .animate{
+
+.add-to-card:hover .animate {
 
   transform: rotate(-45deg);
 }
 
 
-
-
-.hero .image{
-display:flex;
-flex:1;
-align-items: center;
-justify-content: center;
-position: relative;
-height: 100%;
+.hero .image {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100%;
 }
-.hero .image img{
-   height: 100%;
-   transition: all 0.5s ease-in-out;
-  
-}
- .hero .image img:hover{
 
-  transform: scale(1.05) n
+.hero .image img {
+  height: 100%;
+  transition: all 0.5s ease-in-out;
+
 }
-.container { 
+
+.hero .image img:hover {
+  transform: scale(1.05);
+}
+
+.container {
 
 }
 
@@ -241,13 +226,13 @@ height: 100%;
   border-radius: 12px;
   border: 1px solid black;
   padding: 10px 20px;
-
 }
 
 .hello h1 {
   font-size: 31px;
   font-weight: 600;
 }
+
 .hello p {
   font-size: 20px;
   font-weight: 400;
@@ -268,22 +253,29 @@ height: 100%;
   display: flex;
   flex-direction: column;
 }
+
 .card .card-header {
   display: flex;
   gap: 10px;
 }
-.card .card-header img  {
+
+.card .card-header img {
   width: 28px;
   height: 28px;
   background-color: #555252
 }
-.card .card-header .data {}
-.card .card-header .data a { 
+
+.card .card-header .data {
+}
+
+.card .card-header .data a {
   color: rgb(66, 66, 88);
 }
+
 .card .card-header .data a:visited {
-    color: #4d3463;
+  color: #4d3463;
 }
+
 .card .card-body {
   display: flex;
   flex-direction: column;
@@ -295,6 +287,7 @@ height: 100%;
   font-weight: 400;
   line-height: 26px;
 }
+
 .card .card-body p {
   font-family: Arial, sans-serif;
   font-size: 14px;
@@ -303,5 +296,5 @@ height: 100%;
 }
 
 .footer {
-  
+
 }

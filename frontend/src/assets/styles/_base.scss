@@ -1,0 +1,18 @@
+@use 'variables' as *;
+
+html, body {
+  padding: 0; margin: 0;
+  background: $bg; color: $text;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+a { color: $primary; text-decoration: none; }
+.container { max-width: 1000px; margin: 0 auto; padding: 2rem; }
+.nav { display: flex; gap: 1rem; margin-bottom: 2rem; }
+.card {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 14px;
+  padding: 1.25rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+small.muted { color: $muted; }
