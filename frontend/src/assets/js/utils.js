@@ -5,3 +5,8 @@ export async function apiHello() {
   const res = await fetch('/api/hello');
   return res.json();
 }
+
+export async function apiHi() {
+  const res = await fetch('/api/hi');
+  return res.json();
+}

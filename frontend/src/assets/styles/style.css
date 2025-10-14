@@ -220,6 +220,41 @@ h1, h2, h3, h4, h5, h6, .add-to-card {
   width: 1320px;
   min-height: 100vh;
 }
+.bestsellery{
+display: flex;
+flex-direction: column;
+
+}
+.bestsellery-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  row-gap: 50px;
+}
+
+.bestseller-item{
+  display: flex;
+  width: calc(16.66% - 10px);
+  min-height: 421px;
+  flex-direction: column;
+  gap: 12px;
+  
+}
+.bestseller-item .tytul{
+  font-weight: 800;
+  font-size: 21px;
+}
+.bestseller-item .add-to-card {
+  padding: 4px 8px;
+  background: linear-gradient(90deg, #ff0b85, #00ffea);
+  font-size: 18px;
+  width: 70%;
+}
+.okladka{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 .hello {
   background: rgb(226, 226, 226);
@@ -296,5 +331,9 @@ h1, h2, h3, h4, h5, h6, .add-to-card {
 }
 
 .footer {
-
+    display: flex;
+    font-size: large;
+    font-weight: 600;
+    padding: 20px;
+    flex-direction: column-reverse;
 }
