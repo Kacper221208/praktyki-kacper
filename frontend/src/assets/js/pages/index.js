@@ -1,9 +1,20 @@
 import 'the-new-css-reset/css/reset.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import "../../styles/style.css"
+import "../../styles/style.css";
+
 
 import { apiHello, apiHi  } from "@/assets/js/utils.js";
 import { bindEvents } from '@/assets/js/events.js';
+
+import Swiper from 'swiper/bundle'; 
+
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/autoplay';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+
 
 (async () => {
   const data = await apiHello();
@@ -18,7 +29,42 @@ import { bindEvents } from '@/assets/js/events.js';
 
 
   bindEvents();
-
-
   // tu dla tej stronu js 
+
+
+  const swiper = new Swiper('.swiper', {
+    direction: 'horizontal', // zmiana z 'vertical', bo coverflow działa tylko w poziomie
+    loop: true,
+
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false,
+    },
+
+    effect: 'coverflow',
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
+
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+
+    scrollbar: {
+      el: '.swiper-scrollbar', // poprawiona klasa (bez spacji)
+    },
+  });
+
+  console.log(swiper);
+
 })();

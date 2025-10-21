@@ -135,12 +135,26 @@ h1, h2, h3, h4, h5, h6, .add-to-card {
   background: rgba(255, 255, 255, 0.3)
 }
 
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+    font-size: 25px;
+    color: beige;
+}
+
 .hero {
   background-color: #030b12;
+  background-size: cover;
   background-image: url("/hero.png");
   height: calc(100vh - 40px);
   width: 100%;
-  background-size: cover;
+}
+
+.hero-item {
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -238,17 +252,23 @@ flex-direction: column;
   min-height: 421px;
   flex-direction: column;
   gap: 12px;
-  
+  border: 2px solid #2980b9; 
+  border-radius: 15px;  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: rgb(1, 132, 255);
+  padding: 20px;
 }
 .bestseller-item .tytul{
   font-weight: 800;
   font-size: 21px;
 }
+
 .bestseller-item .add-to-card {
   padding: 4px 8px;
   background: linear-gradient(90deg, #ff0b85, #00ffea);
   font-size: 18px;
   width: 70%;
+  
 }
 .okladka{
   width: 100%;
@@ -282,6 +302,7 @@ flex-direction: column;
   display: flex;
   flex-direction: column;
   gap: 40px;
+ 
 }
 
 .card {
