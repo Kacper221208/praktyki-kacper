@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6, .add-to-card {
   transform: scale(1.1);
 }
 
-.onas {
+.menu-item{
   font-size: 20px;
   font-weight: 700;
   color: white;
@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6, .add-to-card {
   transition: all 0.5s ease-in-out
 }
 
-.onas:hover {
+.menu-item:hover {
   transform: scale(1.1);
 }
 
@@ -89,6 +89,14 @@ h1, h2, h3, h4, h5, h6, .add-to-card {
 .produkty:hover {
 
   transform: scale(1.1);
+}
+
+
+.logowanie{
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  padding: 10px 10px;
 }
 
 .kontakt {
@@ -143,6 +151,7 @@ h1, h2, h3, h4, h5, h6, .add-to-card {
 .swiper-slide {
     font-size: 25px;
     color: beige;
+
 }
 
 .hero {
@@ -213,11 +222,14 @@ h1, h2, h3, h4, h5, h6, .add-to-card {
   justify-content: center;
   position: relative;
   height: 100%;
+  
 }
 
 .hero .image img {
   height: 100%;
   transition: all 0.5s ease-in-out;
+  width: 90%;
+  
 
 }
 
